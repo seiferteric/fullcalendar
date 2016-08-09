@@ -328,7 +328,7 @@ function getEvY(ev) {
 
 
 function getEvIsTouch(ev) {
-	return /^touch/.test(ev.type);
+	return false; ///^touch/.test(ev.type);
 }
 
 
